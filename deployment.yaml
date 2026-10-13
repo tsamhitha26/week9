@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: kubedemoapp
-          image: kubedemoapp:v1
+          image: tsamhitha26/sample:kubeimage1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5000
